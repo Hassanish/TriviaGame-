@@ -82,7 +82,11 @@ ul {
   text-align: auto;
 }
 .jumbotron{
+<<<<<<< HEAD
   background: #5D4157;  /* fallback for old browsers */
+=======
+ background: #5D4157;  /* fallback for old browsers */
+>>>>>>> b79f6183cac23403d8a947a7593d640083c033bf
   background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 0px;
