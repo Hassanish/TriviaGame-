@@ -1,5 +1,7 @@
 body {
-  background: url("https://hpmedia.bloomsbury.com/rep/g/page-background-shell%20-%202.png");
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 50px;
   color: antiquewhite;
   font-style: sans-serif;
 }
@@ -23,7 +25,7 @@ p {
 #correct,
 #wrong,
 #missed {
-  font-size: 18px;
+  font-size: 50px;
   color: antiquewhite;
   font-style: sans-serif;
 }
@@ -37,7 +39,7 @@ p {
 }
 #testimonials {
   border-bottom: 2px dashed black;
-  font-size: 20px; }
+  font-size: 50px; }
  q{
    size:30px;
  }
@@ -52,11 +54,12 @@ p {
 
 #start_button {
   margin-left: 200px;
+  font-size: 30px;
   display: block;
   color: brown;
 }
 span{
-  font-size:40px;
+  font-size:50px;
   color: violet;
   font-weight: bold;
   text-align: center;
@@ -74,12 +77,14 @@ ul {
   border:1px solid black;
 }
 #fact{
-  font-size:25px;
+  font-size:50px;
   color:blanchedalmond;
   text-align: auto;
 }
 .jumbotron{
-  background-image:url("http://dastornews.com/wp-content/uploads/2015/09/chalkboard-trivia-overlay-620x256.png");
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 0px;
   background-position: 0% 25%;
 background-size: cover;
