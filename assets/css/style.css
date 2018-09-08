@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  font-size: 50px;
+  font-size: 20px;
   color: antiquewhite;
   font-style: sans-serif;
 }
@@ -25,7 +25,7 @@ p {
 #correct,
 #wrong,
 #missed {
-  font-size: 50px;
+  font-size: 18px;
   color: antiquewhite;
   font-style: sans-serif;
 }
@@ -39,7 +39,7 @@ p {
 }
 #testimonials {
   border-bottom: 2px dashed black;
-  font-size: 50px; }
+  font-size: 20px; }
  q{
    size:30px;
  }
@@ -54,12 +54,12 @@ p {
 
 #start_button {
   margin-left: 200px;
-  font-size: 30px;
+  /*font-size: 30px;*/
   display: block;
   color: brown;
 }
 span{
-  font-size:50px;
+  font-size:40px;
   color: violet;
   font-weight: bold;
   text-align: center;
@@ -77,16 +77,12 @@ ul {
   border:1px solid black;
 }
 #fact{
-  font-size:50px;
+  font-size:25px;
   color:blanchedalmond;
   text-align: auto;
 }
 .jumbotron{
-<<<<<<< HEAD
   background: #5D4157;  /* fallback for old browsers */
-=======
- background: #5D4157;  /* fallback for old browsers */
->>>>>>> b79f6183cac23403d8a947a7593d640083c033bf
   background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 0px;
